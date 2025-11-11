@@ -8,11 +8,13 @@ import OrderFormRadio from "./components/OrderFormRadio";
 import OrderFormCheckbox from "./components/OrderFormChckbox";
 import OrderFormSelect from "./components/OrderFormSelect";
 import "modern-normalize";
+import AppL5 from "./comp/AppL5";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <h1>Модуль 3. Форми та ефекти.</h1>
     <h2>Заняття 5. Форми</h2>
+    <h3>Конспект</h3>
     <App />
     <AppOrderForm />
     <AppSearchForm />
@@ -24,5 +26,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <OrderFormCheckbox />
     <p>Випадаючий список</p>
     <OrderFormSelect />
+    <h3>Лекція</h3>
+    <AppL5 />
   </React.StrictMode>
 );
