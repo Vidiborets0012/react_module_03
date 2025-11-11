@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./components/App";
 import AppOrderForm from "./components/AppOrderForm";
 import AppSearchForm from "./components/SearchForm/AppSearchForm";
+import MyComponent from "./components/MyComponent/MyComponent";
 import "modern-normalize";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
@@ -12,5 +13,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <App />
     <AppOrderForm />
     <AppSearchForm />
+    <p>Хук useId</p>
+    <MyComponent />
   </React.StrictMode>
 );
