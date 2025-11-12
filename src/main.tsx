@@ -13,6 +13,7 @@ import AppStrict from "./effects/AppStrict";
 import AppTimer from "./effects/AppTimer";
 import AppModal from "./effects/AppModal";
 import AppLocal from "./effects/AppLocal";
+import AppSidebar from "./lecture6/AppSidebar";
 
 import "modern-normalize";
 import AppL5 from "./comp/AppL5";
@@ -45,5 +46,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <AppModal />
     <p>Робота з LocalStorage</p>
     <AppLocal />
+    <h3>Лекція</h3>
+    <AppSidebar />
   </React.StrictMode>
 );
