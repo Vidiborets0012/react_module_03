@@ -7,6 +7,13 @@ import MyComponent from "./components/MyComponent/MyComponent";
 import OrderFormRadio from "./components/OrderFormRadio";
 import OrderFormCheckbox from "./components/OrderFormChckbox";
 import OrderFormSelect from "./components/OrderFormSelect";
+// Ефекти
+import AppEffects from "./effects/AppEffects";
+import AppStrict from "./effects/AppStrict";
+import AppTimer from "./effects/AppTimer";
+import AppModal from "./effects/AppModal";
+import AppLocal from "./effects/AppLocal";
+
 import "modern-normalize";
 import AppL5 from "./comp/AppL5";
 
@@ -28,5 +35,15 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <OrderFormSelect />
     <h3>Лекція</h3>
     <AppL5 />
+    <h2>Заняття 6. Побічні ефекти</h2>
+    <h3>Конспект</h3>
+    <AppEffects />
+    <div>
+      <AppStrict />
+    </div>
+    <AppTimer />
+    <AppModal />
+    <p>Робота з LocalStorage</p>
+    <AppLocal />
   </React.StrictMode>
 );
